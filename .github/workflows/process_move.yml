@@ -1,0 +1,37 @@
+name: Process Snake Move
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  process-move:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Get issue body
+        id: issue
+        run: |
+          echo "MOVE=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          -H "Accept: application/vnd.github.v3+json" \
+          https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }} \
+          | jq -r '.body')" >> $GITHUB_ENV
+
+      - name: Update game state
+        run: |
+          python update_game.py "$MOVE"
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add game_state.json game_board.txt
+          git commit -m "Update game state with move: $MOVE"
+          git push
