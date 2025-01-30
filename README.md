@@ -1,6 +1,10 @@
-<p align = "center">
-	<img src = "https://komarev.com/ghpvc/?username=Campalans03&style=plastic&color=blueviolet" alt = "Profile Views"/>
-</p>
+<div align="center">
+<br><p align="centre"><b>Visitors Count</b></p>  
+
+<p align="center"><img align="center" src="https://profile-counter.glitch.me/{Campalans03}/count.svg" /></p> 
+<br>
+</div>
+
 <p align = "center">
 	<img src = "https://github.com/7oSkaaa/7oSkaaa/blob/output/github-contribution-grid-snake.svg?" alt = "Snake Game"/>
 </p>
@@ -22,12 +26,23 @@
 ![Illustrator](https://img.shields.io/badge/-Illustrator-05122A?style=flat&logo=adobe-illustrator)&nbsp;
 ![Photoshop](https://img.shields.io/badge/-Photoshop-05122A?style=flat&logo=adobe-photoshop)&nbsp;
 
-### ⚙️ &nbsp;GitHub Analytics
+
+<details>
+ <summary>⚙️ GitHub Analytics</summary>
+ <div>
+ <samp>
+
+ <p align="center">
+  <a href="https://github.com/AVS1508">
+   <img height="180em" width="450em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Campalans03&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
+   <img height="180em" width="450em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Campalans03&layout=compact&langs_count=8&theme=algolia&count_private=true"/>
+  </a>
+ </p>
+
+</samp> 
 </div>
+</details>
 
 <p align="center">
-<a href="https://github.com/AVS1508">
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Campalans03&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Campalans03&layout=compact&langs_count=8&theme=algolia&count_private=true"/>
-</a>
+        <img src="https://raw.githubusercontent.com/bornmay/bornmay/Update/svg/Bottom.svg" alt="Github Stats" />
 </p>
