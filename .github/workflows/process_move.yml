@@ -8,14 +8,17 @@ jobs:
   process-move:
     runs-on: ubuntu-latest
     steps:
+      # Paso 1: Obtener el código del repositorio
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      # Paso 2: Configurar Python
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.9'
 
+      # Paso 3: Obtener el cuerpo del issue (movimiento)
       - name: Get issue body
         id: issue
         run: |
@@ -24,14 +27,21 @@ jobs:
           https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }} \
           | jq -r '.body')" >> $GITHUB_ENV
 
+      # Paso 4: Ejecutar el script para actualizar el estado del juego
       - name: Update game state
         run: |
           python update_game.py "$MOVE"
 
+      # Paso 5: Ejecutar el script para actualizar el README.md
+      - name: Update README.md
+        run: |
+          python update_readme.py
+
+      # Paso 6: Subir los cambios al repositorio
       - name: Commit and push changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add game_state.json game_board.txt
+          git add game_state.json game_board.txt README.md
           git commit -m "Update game state with move: $MOVE"
           git push
