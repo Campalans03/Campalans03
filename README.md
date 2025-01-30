@@ -44,3 +44,25 @@
 <p align="center">
         <img src="https://raw.githubusercontent.com/bornmay/bornmay/Update/svg/Bottom.svg" alt="Github Stats" />
 </p>
+
+# 🐍 Juego de Snake en GitHub
+
+¡Juega al Snake usando los botones de abajo para enviar movimientos!
+
+## Estado actual del juego
+
+### Puntaje: {{ score }}
+
+
+### Cómo jugar
+Haz clic en uno de los botones para enviar un movimiento. Se creará un issue con tu movimiento y el juego se actualizará automáticamente.
+
+### Movimientos
+[⬆️ UP](https://github.com/tuusuario/tuusuario/issues/new?title=Snake+Move&body=UP)
+[⬇️ DOWN](https://github.com/tuusuario/tuusuario/issues/new?title=Snake+Move&body=DOWN)
+[⬅️ LEFT](https://github.com/tuusuario/tuusuario/issues/new?title=Snake+Move&body=LEFT)
+[➡️ RIGHT](https://github.com/tuusuario/tuusuario/issues/new?title=Snake+Move&body=RIGHT)
+
+---
+
+**Nota**: Los issues se cierran automáticamente después de procesar el movimiento.
