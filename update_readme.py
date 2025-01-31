@@ -1,6 +1,9 @@
 # update_readme.py
 import json
 
+with open('README.md', 'w') as f:
+    f.write(updated_readme)
+
 # Restaurar los marcadores para la próxima ejecución
 # Usamos una plantilla para restaurar solo los marcadores deseados
 template = """
