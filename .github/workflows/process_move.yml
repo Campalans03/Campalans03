@@ -11,6 +11,11 @@ jobs:
       contents: write  # Permite escribir en el repositorio
       issues: write    # Permite cerrar issues
     steps:
+      # Paso 0: Instalar dependencias (jq)
+      - name: Install dependencies
+        run: |
+          sudo apt-get install -y jq
+
       # Paso 1: Obtener el código del repositorio
       - name: Checkout repository
         uses: actions/checkout@v3
