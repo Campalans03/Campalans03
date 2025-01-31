@@ -1,3 +1,6 @@
+# update_readme.py
+import json
+
 with open('README.md', 'r') as f:
     readme = f.read()
 
