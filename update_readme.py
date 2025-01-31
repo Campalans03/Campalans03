@@ -22,7 +22,7 @@ updated_readme = updated_readme.replace('{{ score }}', str(score))
 with open('README.md', 'w') as f:
     f.write(updated_readme)
 
-# Restaurar los marcadores específicos para la próxima ejecución
+# Restaurar los marcadores para la próxima ejecución
 # Usamos una plantilla para restaurar solo los marcadores deseados
 template = """
 ### Puntaje: {{ score }}
@@ -35,8 +35,8 @@ template = """
 
 # Buscamos la sección del tablero y el puntaje en el README.md actualizado
 # y la reemplazamos con la plantilla que contiene los marcadores
-start_marker = "### Puntaje: {{ score }}"
-end_marker = "### Tablero:"
+start_marker = "<!-- GAME -->"
+end_marker = "<!-- ENDGAME -->"
 
 # Encontrar la posición de la sección del tablero y el puntaje
 start_index = updated_readme.find(start_marker)
