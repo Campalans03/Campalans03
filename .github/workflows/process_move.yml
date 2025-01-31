@@ -7,6 +7,9 @@ on:
 jobs:
   process-move:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Permite escribir en el repositorio
+      issues: write    # Permite cerrar issues
     steps:
       # Paso 1: Obtener el código del repositorio
       - name: Checkout repository
