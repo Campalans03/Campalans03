@@ -17,3 +17,34 @@ with open('game_state.json', 'r') as f:
 # Reemplazar marcadores con los valores actuales
 updated_readme = readme.replace('{{ game_board }}', game_board)
 updated_readme = updated_readme.replace('{{ score }}', str(score))
+
+# Escribir el README.md actualizado
+with open('README.md', 'w') as f:
+    f.write(updated_readme)
+
+# Restaurar los marcadores específicos para la próxima ejecución
+# Usamos una plantilla para restaurar solo los marcadores deseados
+template = """
+### Puntaje: {{ score }}
+
+### Tablero:
+{{ game_board }}
+"""
+
+# Buscamos la sección del tablero y el puntaje en el README.md actualizado
+# y la reemplazamos con la plantilla que contiene los marcadores
+start_marker = "### Tablero:"
+end_marker = "### Puntaje: {{ score }}"
+
+# Encontrar la posición de la sección del tablero y el puntaje
+start_index = updated_readme.find(start_marker)
+end_index = updated_readme.find(end_marker) + len(end_marker)
+
+# Reemplazar solo la sección del tablero y el puntaje con la plantilla
+restored_readme = (
+    updated_readme[:start_index] + template + updated_readme[end_index:]
+)
+
+# Escribir el README.md con los marcadores restaurados
+with open('README.md', 'w') as f:
+    f.write(restored_readme)
