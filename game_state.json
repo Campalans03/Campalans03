@@ -1,22 +1,22 @@
 {
   "snake": [
     [
+      8,
+      6
+    ],
+    [
       9,
       6
     ],
     [
       9,
       7
-    ],
-    [
-      9,
-      8
     ]
   ],
   "food": [
     5,
     5
   ],
-  "direction": "UP",
+  "direction": "LEFT",
   "score": 0
 }
