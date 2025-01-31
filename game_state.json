@@ -2,21 +2,21 @@
   "snake": [
     [
       9,
+      8
+    ],
+    [
+      9,
       9
     ],
     [
       10,
       9
-    ],
-    [
-      10,
-      10
     ]
   ],
   "food": [
     5,
     5
   ],
-  "direction": "LEFT",
+  "direction": "UP",
   "score": 0
 }
