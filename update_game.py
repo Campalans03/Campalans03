@@ -51,7 +51,7 @@ if move in ["UP", "DOWN", "LEFT", "RIGHT"]:
         json.dump(game_state, f, indent=2)
 
     # Generar representación ASCII del tablero
-    board = [['[]' for _ in range(10)] for _ in range(10)]
+    board = [['⬜' for _ in range(10)] for _ in range(10)]
     for segment in game_state["snake"]:
         x, y = segment
         board[y][x] = '🟩'  # Cuerpo de la serpiente
