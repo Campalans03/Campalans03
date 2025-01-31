@@ -45,7 +45,7 @@
         <img src="https://raw.githubusercontent.com/bornmay/bornmay/Update/svg/Bottom.svg" alt="Github Stats" />
 </p>
 
-# 🐍 Juego de Snake en GitHub
+# 🐍 Juego de Snake
 
 ## Estado actual del juego
 
