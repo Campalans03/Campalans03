@@ -73,3 +73,31 @@ Haz clic en uno de los botones para enviar un movimiento. Se creará un issue co
 [⬇️ DOWN](https://github.com/Campalans03/Campalans03/issues/new?title=Snake+Move&body=DOWN)
 [⬅️ LEFT](https://github.com/Campalans03/Campalans03/issues/new?title=Snake+Move&body=LEFT)
 [➡️ RIGHT](https://github.com/Campalans03/Campalans03/issues/new?title=Snake+Move&body=RIGHT)
+### Puntaje: {{ score }}
+
+### Tablero:
+<pre>
+{{ game_board }}
+</pre>
+
+<pre>
+⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
+⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
+⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
+⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
+⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
+⬜⬜⬜⬜⬜🍎⬜⬜⬜⬜
+⬜⬜⬜⬜⬜⬜🟢🟩🟩⬜
+⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
+⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
+⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
+</pre>
+
+### Cómo jugar
+Haz clic en uno de los botones para enviar un movimiento. Se creará un issue con tu movimiento y el juego se actualizará automáticamente.
+
+### Movimientos
+[⬆️ UP](https://github.com/Campalans03/Campalans03/issues/new?title=Snake+Move&body=UP)
+[⬇️ DOWN](https://github.com/Campalans03/Campalans03/issues/new?title=Snake+Move&body=DOWN)
+[⬅️ LEFT](https://github.com/Campalans03/Campalans03/issues/new?title=Snake+Move&body=LEFT)
+[➡️ RIGHT](https://github.com/Campalans03/Campalans03/issues/new?title=Snake+Move&body=RIGHT)
