@@ -49,14 +49,26 @@
 
 ## Estado actual del juego
 
+
 <!-- GAME -->
-### Puntaje: {{ score }}
+### Puntaje: 1
 
 ### Tablero:
 <pre>
-{{ game_board }}
+⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
+⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
+⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
+⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
+⬜⬜⬜⬜⬜🟢⬜⬜⬜⬜
+⬜⬜⬜⬜⬜🟩⬜⬜⬜⬜
+⬜⬜⬜⬜⬜🟩🟩⬜⬜⬜
+⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
+⬜⬜⬜⬜⬜⬜⬜⬜⬜🍎
+⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜
+
 </pre>
 <!-- ENDGAME -->
+
 
 ### Cómo jugar
 Haz clic en uno de los botones para enviar un movimiento. Se creará un issue con tu movimiento y el juego se actualizará automáticamente.
