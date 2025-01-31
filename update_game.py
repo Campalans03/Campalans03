@@ -39,7 +39,7 @@ if move in ["UP", "DOWN", "LEFT", "RIGHT"]:
             game_state["score"] += 1
             # Generar nueva posición aleatoria para la comida
             while True:
-                new_food = [random.randint(0, 19), random.randint(0, 19)]
+                new_food = [random.randint(0, 10), random.randint(0, 10)]
                 if new_food not in game_state["snake"]:
                     game_state["food"] = new_food
                     break
