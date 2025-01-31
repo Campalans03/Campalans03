@@ -65,7 +65,3 @@ Haz clic en uno de los botones para enviar un movimiento. Se creará un issue co
 [⬇️ DOWN](https://github.com/Campalans{{ score }}3/Campalans{{ score }}3/issues/new?title=Snake+Move&body=DOWN)
 [⬅️ LEFT](https://github.com/Campalans{{ score }}3/Campalans{{ score }}3/issues/new?title=Snake+Move&body=LEFT)
 [➡️ RIGHT](https://github.com/Campalans{{ score }}3/Campalans{{ score }}3/issues/new?title=Snake+Move&body=RIGHT)
-
----
-
-**Nota**: Los issues se cierran automáticamente después de procesar el movimiento.
