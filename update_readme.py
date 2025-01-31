@@ -28,13 +28,15 @@ template = """
 ### Puntaje: {{ score }}
 
 ### Tablero:
+<pre>
 {{ game_board }}
+</pre>
 """
 
 # Buscamos la sección del tablero y el puntaje en el README.md actualizado
 # y la reemplazamos con la plantilla que contiene los marcadores
-start_marker = "### Tablero:"
-end_marker = "### Puntaje: {{ score }}"
+start_marker = "### Puntaje: {{ score }}"
+end_marker = "### Tablero:"
 
 # Encontrar la posición de la sección del tablero y el puntaje
 start_index = updated_readme.find(start_marker)
