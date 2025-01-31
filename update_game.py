@@ -1,5 +1,6 @@
 import json
 import sys
+import random
 
 # Cargar el estado del juego
 with open('game_state.json', 'r') as f:
@@ -36,7 +37,12 @@ if move in ["UP", "DOWN", "LEFT", "RIGHT"]:
         game_state["snake"].insert(0, head)
         if head == game_state["food"]:
             game_state["score"] += 1
-            game_state["food"] = [5, 5]  # Nueva posición de la comida (puedes randomizarla)
+            # Generar nueva posición aleatoria para la comida
+            while True:
+                new_food = [random.randint(0, 19), random.randint(0, 19)]
+                if new_food not in game_state["snake"]:
+                    game_state["food"] = new_food
+                    break
         else:
             game_state["snake"].pop()
 
