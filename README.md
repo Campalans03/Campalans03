@@ -47,11 +47,12 @@
 
 # 🐍 Juego de Snake en GitHub
 
-¡Juega al Snake usando los botones de abajo para enviar movimientos!
-
 ## Estado actual del juego
 
 ### Puntaje: {{ score }}
+
+### Tablero:
+{{ game_board }}
 
 
 ### Cómo jugar
