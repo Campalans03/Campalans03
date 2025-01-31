@@ -1,7 +1,7 @@
 <div align="center">
 <br><p align="centre"><b>Visitors Count</b></p>  
 
-<p align="center"><img align="center" src="https://profile-counter.glitch.me/{Campalans{{ score }}3}/count.svg" /></p> 
+<p align="center"><img align="center" src="https://profile-counter.glitch.me/{Campalans03}/count.svg" /></p> 
 <br>
 </div>
 
@@ -13,18 +13,18 @@
 
 ### 🛠 &nbsp;Tech Stack
 
-![Python](https://img.shields.io/badge/-Python-{{ score }}5122A?style=flat&logo=python)&nbsp;
-![Java](https://img.shields.io/badge/-Java-{{ score }}5122A?style=flat&logo=Java&logoColor=FFA518)&nbsp;
-![C](https://img.shields.io/badge/-C-{{ score }}5122A?style=flat&logo=C&logoColor=A8B9CC)&nbsp;
-![C++](https://img.shields.io/badge/-C++-{{ score }}5122A?style=flat&logo=C%2B%2B&logoColor={{ score }}{{ score }}599C)&nbsp;
-![R (Statistics)](https://img.shields.io/badge/-R-{{ score }}5122A?style=flat&logo=R&logoColor=276DC3)&nbsp;
-![RStudio](https://img.shields.io/badge/-RStudio-{{ score }}5122A?style=flat&logo=rstudio)&nbsp;
-![Git](https://img.shields.io/badge/-Git-{{ score }}5122A?style=flat&logo=git)&nbsp;
-![GitHub](https://img.shields.io/badge/-GitHub-{{ score }}5122A?style=flat&logo=github)&nbsp;
-![Visual Studio Code](https://img.shields.io/badge/-Visual%2{{ score }}Studio%2{{ score }}Code-{{ score }}5122A?style=flat&logo=visual-studio-code&logoColor={{ score }}{{ score }}7ACC)&nbsp;
-![Eclipse](https://img.shields.io/badge/-Eclipse-{{ score }}5122A?style=flat&logo=eclipse-ide&logoColor=2C2255)&nbsp;
-![Illustrator](https://img.shields.io/badge/-Illustrator-{{ score }}5122A?style=flat&logo=adobe-illustrator)&nbsp;
-![Photoshop](https://img.shields.io/badge/-Photoshop-{{ score }}5122A?style=flat&logo=adobe-photoshop)&nbsp;
+![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)&nbsp;
+![Java](https://img.shields.io/badge/-Java-05122A?style=flat&logo=Java&logoColor=FFA518)&nbsp;
+![C](https://img.shields.io/badge/-C-05122A?style=flat&logo=C&logoColor=A8B9CC)&nbsp;
+![C++](https://img.shields.io/badge/-C++-05122A?style=flat&logo=C%2B%2B&logoColor=00599C)&nbsp;
+![R (Statistics)](https://img.shields.io/badge/-R-05122A?style=flat&logo=R&logoColor=276DC3)&nbsp;
+![RStudio](https://img.shields.io/badge/-RStudio-05122A?style=flat&logo=rstudio)&nbsp;
+![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git)&nbsp;
+![GitHub](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)&nbsp;
+![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-05122A?style=flat&logo=visual-studio-code&logoColor=007ACC)&nbsp;
+![Eclipse](https://img.shields.io/badge/-Eclipse-05122A?style=flat&logo=eclipse-ide&logoColor=2C2255)&nbsp;
+![Illustrator](https://img.shields.io/badge/-Illustrator-05122A?style=flat&logo=adobe-illustrator)&nbsp;
+![Photoshop](https://img.shields.io/badge/-Photoshop-05122A?style=flat&logo=adobe-photoshop)&nbsp;
 
 
 <details>
@@ -33,8 +33,8 @@
  <samp>
 
  <p align="center">
-   <img height="18{{ score }}em" width="45{{ score }}em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Campalans{{ score }}3&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
-   <img height="18{{ score }}em" width="45{{ score }}em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Campalans{{ score }}3&layout=compact&langs_count=8&theme=algolia&count_private=true"/>
+   <img height="18{{ score }}em" width="45{{ score }}em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Campalans03&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
+   <img height="18{{ score }}em" width="45{{ score }}em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Campalans03&layout=compact&langs_count=8&theme=algolia&count_private=true"/>
  </p>
 
 </samp> 
@@ -61,7 +61,7 @@
 Haz clic en uno de los botones para enviar un movimiento. Se creará un issue con tu movimiento y el juego se actualizará automáticamente.
 
 ### Movimientos
-[⬆️ UP](https://github.com/Campalans{{ score }}3/Campalans{{ score }}3/issues/new?title=Snake+Move&body=UP)
-[⬇️ DOWN](https://github.com/Campalans{{ score }}3/Campalans{{ score }}3/issues/new?title=Snake+Move&body=DOWN)
-[⬅️ LEFT](https://github.com/Campalans{{ score }}3/Campalans{{ score }}3/issues/new?title=Snake+Move&body=LEFT)
-[➡️ RIGHT](https://github.com/Campalans{{ score }}3/Campalans{{ score }}3/issues/new?title=Snake+Move&body=RIGHT)
+[⬆️ UP](https://github.com/Campalans03/Campalans03/issues/new?title=Snake+Move&body=UP)
+[⬇️ DOWN](https://github.com/Campalans03/Campalans03/issues/new?title=Snake+Move&body=DOWN)
+[⬅️ LEFT](https://github.com/Campalans03/Campalans03/issues/new?title=Snake+Move&body=LEFT)
+[➡️ RIGHT](https://github.com/Campalans03/Campalans03/issues/new?title=Snake+Move&body=RIGHT)
