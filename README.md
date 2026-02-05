@@ -1,15 +1,4 @@
-<div align="center">
-<br><p align="centre"><b>Visitors Count</b></p>  
 
-<p align="center"><img align="center" src="https://profile-counter.glitch.me/{Campalans03}/count.svg" /></p> 
-<br>
-</div>
-
-<p align = "center">
-	<img src = "https://github.com/7oSkaaa/7oSkaaa/blob/output/github-contribution-grid-snake.svg?" alt = "Snake Game"/>
-</p>
-
-<div align='center'>
 
 ### 🛠 &nbsp;Tech Stack
 
