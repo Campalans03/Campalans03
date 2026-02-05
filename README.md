@@ -1,57 +1,31 @@
+<h1 align="center">Hi 👋, I'm Jan Campalans</h1>
 
+<p align="center">
+I’m currently studying <b>Computer Engineering</b> and <b>Game Development</b> at <b>Tecnocampus UPF</b>.  
+I like working on projects where I can mix <b>problem-solving</b> with <b>solid development practices</b>, whether it’s building backend services, experimenting with new tools, or creating interactive experiences.  
+My goal is to keep growing step by step by shipping real projects and learning from each one.
+</p>
 
-### 🛠 &nbsp;Tech Stack
+<br/>
 
-#### 🧩 Backend
-![Java](https://img.shields.io/badge/-Java-05122A?style=flat&logo=Java&logoColor=FFA518)&nbsp;
-![Spring Boot](https://img.shields.io/badge/-Spring%20Boot-05122A?style=flat&logo=springboot)&nbsp;
-![JPA](https://img.shields.io/badge/-JPA-05122A?style=flat&logo=hibernate)&nbsp;
-![JWT](https://img.shields.io/badge/-JWT-05122A?style=flat&logo=jsonwebtokens)&nbsp;
+<h3 align="center">Connect with me:</h3>
 
-#### 🗄️ Databases
-![MySQL](https://img.shields.io/badge/-MySQL-05122A?style=flat&logo=mysql)&nbsp;
+<p align="center">
+  <a href="https://www.linkedin.com/in/jan-campalans-b8ab811a4/" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" height="40" width="40" />
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://campalans.itch.io" target="_blank">
+    <img src="https://cdn.simpleicons.org/itchdotio/FA5C5C" alt="itch.io" height="40" width="40" />
+  </a>
+</p>
 
-#### 🎨 Frontend
-![React](https://img.shields.io/badge/-React-05122A?style=flat&logo=react)&nbsp;
-![Next.js](https://img.shields.io/badge/-Next.js-05122A?style=flat&logo=next.js)&nbsp;
-![TypeScript](https://img.shields.io/badge/-TypeScript-05122A?style=flat&logo=typescript)&nbsp;
-![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)&nbsp;
-![HTML5](https://img.shields.io/badge/-HTML5-05122A?style=flat&logo=html5)&nbsp;
-![CSS3](https://img.shields.io/badge/-CSS3-05122A?style=flat&logo=css3&logoColor=1572B6)&nbsp;
+<br/>
 
-#### 🧪 Testing
-![JUnit](https://img.shields.io/badge/-JUnit-05122A?style=flat&logo=junit5)&nbsp;
-![Mockito](https://img.shields.io/badge/-Mockito-05122A?style=flat&logo=mockito)&nbsp;
-![Jest](https://img.shields.io/badge/-Jest-05122A?style=flat&logo=jest)&nbsp;
-
-#### ☁️ Cloud
-![AWS](https://img.shields.io/badge/-AWS-05122A?style=flat&logo=amazonaws)&nbsp;
-
-#### 🎮 Game Dev
-![Unity](https://img.shields.io/badge/-Unity-05122A?style=flat&logo=unity)&nbsp;
-
-#### ⚙️ Tools
-![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git)&nbsp;
-![GitHub](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)&nbsp;
-![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-05122A?style=flat&logo=visual-studio-code&logoColor=007ACC)&nbsp;
-![Eclipse](https://img.shields.io/badge/-Eclipse-05122A?style=flat&logo=eclipse-ide&logoColor=2C2255)&nbsp;
-
-
-
-
-<details>
- <summary>⚙️ GitHub Analytics</summary>
- <div>
- <samp>
-
- <p align="center">
-   <img height="180em" width="450em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Campalans03&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
-   <img height="180em" width="450em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Campalans03&layout=compact&langs_count=8&theme=algolia&count_private=true"/>
- </p>
-
-</samp> 
-</div>
-</details>
+<h2 align="center">Tech Stack</h2>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,spring,python,c,cpp,js,ts,react,nextjs,html,css,mysql,aws,git,github,vscode,unity" />
+</p>
 
 <p align="center">
         <img src="https://raw.githubusercontent.com/bornmay/bornmay/Update/svg/Bottom.svg" alt="Github Stats" />
