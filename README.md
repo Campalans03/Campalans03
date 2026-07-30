@@ -21,7 +21,7 @@ Junior software developer with a backend focus. I work across <b>Java</b> and <b
 
 </td>
 <td align="center" width="40%">
-<img src="https://github-readme-stats.vercel.app/api?username=Campalans03&show_icons=true&hide_border=true&theme=dark" width="380"/>
+<img src="https://raw.githubusercontent.com/Campalans03/Campalans03/main/java.png" width="380"/>
 </td>
 </tr>
 </table>
