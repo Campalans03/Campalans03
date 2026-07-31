@@ -13,7 +13,6 @@
  
 Junior software developer with a backend focus. I work across **Java** and **Spring Boot**, relational and NoSQL databases, and test-driven development, and I'm comfortable in agile teams.
  
----
  
 ## Tech Stack
  
